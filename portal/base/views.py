@@ -6,5 +6,5 @@ from django.shortcuts import render
 def index(request):
     return HttpResponse("Hello Django!!!")
 
-    
-
+def cadastro(request):
+    return HttpResponse("Iniciando Cadastro")
